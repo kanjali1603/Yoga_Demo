@@ -1834,3 +1834,51 @@ table tr td img
 	}
 
 }
+@media all and (max-width:425px),
+{	
+
+	.header-c3 i 
+	{
+		font-size: 17px;
+		padding: 7px 8px;
+		color: var(--sub-color);
+		border: 2px solid var(--sub-color);
+		border-radius: 50%;
+		margin-right: 1px;
+		margin-top: 5px;
+	}
+	.course-box-c1-review
+	{
+		position: absolute;
+		border: 3px solid #ffffff;
+		border-radius: 50%;
+		top: 47%;
+		left: 39%;
+	}
+	.course-box-c1-review img 
+	{
+		border-radius: 50%;
+		width: 85px;
+		height: 85px;
+	}
+	.vision  
+	{
+		height: 2000px;
+	}
+
+	.teach-data table i 
+	{
+		background-color: var(--main-color);
+		padding: 10px 14px;
+		color: var(--text-color);
+		margin-right: 10px;
+		margin-top: 40px;
+
+	}
+	.teach p a
+	{
+		text-decoration: none;
+		padding: 10px 14px;
+		font-size: 18px;
+	}
+}
