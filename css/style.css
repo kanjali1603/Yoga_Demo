@@ -95,6 +95,7 @@ img
 {
 	flex: 12%;
 	text-align: right;
+	/*border: 2px solid green;*/
 
 }
 .header-c1 img 
@@ -1834,9 +1835,16 @@ table tr td img
 	}
 
 }
-@media all and (max-width:425px),
+@media all and (max-width:449px),
 {	
 
+	.header-c3
+	{
+		flex: 12%;
+		text-align: left;
+		/*border: 2px solid green;*/
+
+	}
 	.header-c3 i 
 	{
 		font-size: 17px;
@@ -1846,13 +1854,14 @@ table tr td img
 		border-radius: 50%;
 		margin-right: 1px;
 		margin-top: 5px;
+		text-align: right;
 	}
 	.course-box-c1-review
 	{
 		position: absolute;
 		border: 3px solid #ffffff;
 		border-radius: 50%;
-		top: 47%;
+		top: 50%;
 		left: 39%;
 	}
 	.course-box-c1-review img 
@@ -1880,5 +1889,88 @@ table tr td img
 		text-decoration: none;
 		padding: 10px 14px;
 		font-size: 18px;
+	}
+}
+@media all and (max-width:480px),
+{	
+
+
+	.header-c3
+	{
+		flex: 26%;
+		text-align: center;
+		/*border: 2px solid yellow;*/
+
+	}
+	.header-c3 i 
+	{
+		font-size: 1rem;
+		padding: 7px 8px;
+		color: var(--sub-color);
+		border: 2px solid var(--sub-color);
+		border-radius: 50%;
+		margin-right: 1px;
+		margin-top: 5px;
+	}
+	.course-box-c1-review img 
+	{
+		border-radius: 50%;
+		min-width: 65px;
+		min-height: 65px;
+	}
+}
+
+@media all and (max-width:426px),
+{
+		.hero-text h1 
+	{
+		margin-bottom: 20px;
+		font-size: 34px;
+		line-height: 1.2;
+		color: var(--sub-color);
+		margin-right: 10px;
+	}
+	.course-box-c1-review
+	{
+		position: absolute;
+		border: 3px solid #ffffff;
+		border-radius: 50%;
+		top: 49%;
+		left: 39%;
+	}
+	.course-box-c1-data table tr td p
+	{
+		font-size: 16px;
+		color: var(--main-color);
+		margin-top: 7px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+}
+@media all and (max-width:376px),
+{
+		.hero-text h1 
+	{
+		margin-bottom: 20px;
+		font-size: 35px;
+		line-height: 1.2;
+		color: var(--sub-color);
+		margin-right: 10px;
+	}
+	.course-box-c1-review
+	{
+		position: absolute;
+		border: 3px solid #ffffff;
+		border-radius: 50%;
+		top: 44%;
+		left: 36%;
+	}
+	.course-box-c1-data table tr td p
+	{
+		font-size: 14px;
+		color: var(--main-color);
+		margin-top: 7px;
+		margin-bottom: 8px;
+		margin-left: 0px;
 	}
 }
